@@ -1,0 +1,6 @@
+string,text,integer,float,date,datetime,boolean,binary,array,json
+defaultsTo, autoIncrement,unique,primaryKey,enum,size,columnName,email
+
+@name: type/string, unique
+@email: type/string, unique
+@address: type/string, defaultsTo/"New York"
